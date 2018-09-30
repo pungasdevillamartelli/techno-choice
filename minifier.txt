@@ -1,0 +1,40 @@
+// GO TO http://closure-compiler.appspot.com/home
+
+// ==ClosureCompiler==
+// @compilation_level SIMPLE_OPTIMIZATIONS
+// @output_file_name demo.min.js
+// @code_url http://rock.pungas.space:10000/techno_choice/utils.js
+// @code_url http://rock.pungas.space:10000/techno_choice/audio/webaudio-utils.js
+// @code_url http://rock.pungas.space:10000/techno_choice/fonts/font-style.js
+// @code_url http://rock.pungas.space:10000/techno_choice/shaders/basics.js
+// @code_url http://rock.pungas.space:10000/techno_choice/shaders/scene-backgrounds.js
+// @code_url http://rock.pungas.space:10000/techno_choice/shaders/scene-distance-toshi.js
+// @code_url http://rock.pungas.space:10000/techno_choice/shaders/scene-particles-distance.js
+// @code_url http://rock.pungas.space:10000/techno_choice/shaders/scene-futura-2d.js
+// @code_url http://rock.pungas.space:10000/techno_choice/shaders/font-fx-1.js
+// @code_url http://rock.pungas.space:10000/techno_choice/shaders/scene-greenbar.js
+// @code_url http://rock.pungas.space:10000/techno_choice/shaders/scene-bar-scoring.js
+// @code_url http://rock.pungas.space:10000/techno_choice/shaders/scene-scoring-replacement.js
+// @code_url http://rock.pungas.space:10000/techno_choice/shaders/scene-black.js
+// @code_url http://rock.pungas.space:10000/techno_choice/entities/frame-selector.js
+// @code_url http://rock.pungas.space:10000/techno_choice/entities/entity-background-interpolation.js
+// @code_url http://rock.pungas.space:10000/techno_choice/entities/entity-shader-interpolation.js
+// @code_url http://rock.pungas.space:10000/techno_choice/entities/entity-shader-interpolation-font.js		
+// @code_url http://rock.pungas.space:10000/techno_choice/entities/entity-logo.js
+// @code_url http://rock.pungas.space:10000/techno_choice/entities/fader.js
+// @code_url http://rock.pungas.space:10000/techno_choice/entities/animation-properties.js
+// @code_url http://rock.pungas.space:10000/techno_choice/entities/parametric-animation.js
+// @code_url http://rock.pungas.space:10000/techno_choice/entities/movement-effects.js
+// @code_url http://rock.pungas.space:10000/techno_choice/entities/entity-shadered-font.js
+// @code_url http://rock.pungas.space:10000/techno_choice/scenes/renderer.js
+// @code_url http://rock.pungas.space:10000/techno_choice/scenes/bloom-renderer.js
+// @code_url http://rock.pungas.space:10000/techno_choice/scenes/transition-renderer.js
+// @code_url http://rock.pungas.space:10000/techno_choice/scenes/scene-sequencer.js
+// @code_url http://rock.pungas.space:10000/techno_choice/scenes/time-steps-sequencer.js
+// @code_url http://rock.pungas.space:10000/techno_choice/scenes/scene.js		
+// @code_url http://rock.pungas.space:10000/techno_choice/resources.js
+// @code_url http://rock.pungas.space:10000/techno_choice/beatsData.js
+// @code_url http://rock.pungas.space:10000/techno_choice/events-table.js
+// @code_url http://rock.pungas.space:10000/techno_choice/demo.js
+// @code_url http://rock.pungas.space:10000/techno_choice/init.js	
+// ==/ClosureCompiler==

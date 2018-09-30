@@ -1,0 +1,69 @@
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="title" content="Techno Choice">
+		<meta name="description" content="Techno Choice PVM">
+		<meta name="author" content="PVM^2018">
+		<meta name="keywords" content="WebGL PVM Techno Demo GFX GLSL pungas villa">
+		
+		<!-- Base libs -->
+		<script type="text/javascript" src="glMatrix-0.9.5.min.js"></script>
+		<script type="text/javascript" src="utils.js"></script>	
+		<script type="text/javascript" src="audio/webaudio-utils.js"></script>
+		<!-- Fonts & text -->
+		<script type="text/javascript" src="fonts/font-style.js"></script>
+		<script type="text/javascript" src="fonts/charset1.js"></script>
+		<script type="text/javascript" src="fonts/charset3.js"></script>
+		<!-- Shaders -->
+		<script type="text/javascript" src="shaders/basics.js"></script>
+		<script type="text/javascript" src="shaders/scene-backgrounds.js"></script>
+		<script type="text/javascript" src="shaders/scene-distance-toshi.js"></script>
+		<script type="text/javascript" src="shaders/scene-futura-2d.js"></script>
+		<script type="text/javascript" src="shaders/font-fx-1.js"></script>
+		<script type="text/javascript" src="shaders/scene-greenbar.js"></script>
+		<script type="text/javascript" src="shaders/scene-bar-scoring.js"></script>
+		<script type="text/javascript" src="shaders/scene-scoring-replacement.js"></script>
+		<script type="text/javascript" src="shaders/scene-black.js"></script>
+		<!-- Entities -->
+		<script type="text/javascript" src="entities/frame-selector.js"></script>
+		<script type="text/javascript" src="entities/entity.js"></script>
+		<script type="text/javascript" src="entities/entity-background-interpolation.js"></script>
+		<script type="text/javascript" src="entities/entity-shader-interpolation.js"></script>
+		<script type="text/javascript" src="entities/entity-shader-interpolation-font.js"></script>		
+		<script type="text/javascript" src="entities/entity-logo.js"></script>
+		<script type="text/javascript" src="entities/fader.js"></script>
+		<script type="text/javascript" src="entities/animation-properties.js"></script>
+		<script type="text/javascript" src="entities/parametric-animation.js"></script>
+		<script type="text/javascript" src="entities/entity-shadered-font.js"></script>
+		<script type="text/javascript" src="renderers/renderer.js"></script>
+		<script type="text/javascript" src="renderers/bloom-renderer.js"></script>
+		<script type="text/javascript" src="renderers/transition-renderer.js"></script>
+		<script type="text/javascript" src="scenes/scene-sequencer.js"></script>
+		<script type="text/javascript" src="scenes/time-steps-sequencer.js"></script>
+		<script type="text/javascript" src="scenes/scene.js"></script>		
+		<script type="text/javascript" src="beatsData.js"></script>
+		<script type="text/javascript" src="events-table.js"></script>
+		<script type="text/javascript" src="demo.js"></script>
+		<script type="text/javascript" src="initLow.js"></script>	
+	</head>
+
+	<body onload="startupDraw()" style="background-color: black">
+		<div>
+			<div id="divTextureCanvas" style="display: none">
+				<canvas id="textureCanvas" width="1024" height="1024"></canvas>
+				<img id="logo-pungas" src="textures/logo-pungas.png" width="1024" height="1024">
+				<img id="logo-presents" src="textures/logo-presents.png" width="1024" height="1024">
+				<img id="logo-demo" src="textures/logo-demo.png" width="1024" height="1024">
+			</div>
+			<div id="demo-container" style="padding-top: 60px">
+				<p id="labelClick" style="color: gray">Loading, please wait...</p>
+				<div id="main-div">
+					<canvas id="glCanvas" onclick="toggleFullscreen()"></canvas>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
